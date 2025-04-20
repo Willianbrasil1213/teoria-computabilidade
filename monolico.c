@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int n, i = 1, soma = 0;
-
-    printf("Digite um número: ");
-    scanf("%d", &n);
+    int n = 5, resultado = 1;
 
 inicio:
-    if (i > n) goto fim;
-    soma = soma + i;
-    i = i + 1;
+    if (n == 0) goto fim;
+    resultado *= n;
+    n--;
     goto inicio;
 
 fim:
-    printf("Soma dos %d primeiros números naturais: %d\n", n, soma);
+    printf("Fatorial: %d\n", resultado);
     return 0;
 }
