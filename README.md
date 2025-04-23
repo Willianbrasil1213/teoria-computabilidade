@@ -1,7 +1,6 @@
 # README
 
-Este repositório contém exemplos de código para calcular o **fatorial** e realizar **decrementos** de três formas distintas: **iterativa**, **recursiva** e **monolitica**. O objetivo é mostrar as diferenças na estrutura interna e no controle de fluxo entre essas abordagens.
-
+Este repositório contém exemplos de código para calcular o **fatorial** e realizar **decrementos** de três formas distintas: **iterativa**, **recursiva** e **monolitica**. 
 ## Fatorial
 
 São apresentadas três abordagens para calcular o fatorial de um número:
